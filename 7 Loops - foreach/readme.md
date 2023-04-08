@@ -7,8 +7,4 @@ resource "null_resource" "students" {
     student3="guy"
   }   
 }
-
- output student_names {
-    value=null_resource.students
-  }
-  ```
+```
