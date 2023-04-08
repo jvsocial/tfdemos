@@ -12,4 +12,5 @@ output "students_names_caps" {
     value = [for name in var.students : upper(name)]
   
 }
+
 ```
